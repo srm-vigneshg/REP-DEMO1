@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: rep-demo:sonartoken
-    HOST: rep-demo:HOST
-    Organization: rep-demo:Organization
-    Project: rep-demo:Project
+    LOGIN: rep_demo:sonartoken
+    HOST: rep_demo:HOST
+    Organization: rep_demo:Organization
+    Project: rep_demo:Project
 phases:
   install:
     runtime-versions:
