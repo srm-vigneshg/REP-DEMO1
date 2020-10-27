@@ -5,10 +5,14 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class WebApplication {
-    public static void main(String[] args) throws Exception {
-       // SpringApplication.run(WebApplication.class, args);
-    	SpringApplicationBuilder builder = new SpringApplicationBuilder(WebApplication.class);
-		builder.headless(false).run(args);
-    }
+public class WebApplication  extends SpringBootServletInitializer{
+
+	public static void main(String[] args) {
+		SpringApplication.run(WebApplication.class, args);
+	}
+	
+	@Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        return builder.sources(WebApplication.class);
+	}
 }
