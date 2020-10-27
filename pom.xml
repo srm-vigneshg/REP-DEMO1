@@ -7,7 +7,7 @@
   </parent>
   <groupId>com.srm.repg</groupId>
   <artifactId>rep-gmap</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>war</packaging>
   <name>JSP Example</name>
   <properties>
@@ -19,11 +19,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
-        </dependency>
+		
 
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
