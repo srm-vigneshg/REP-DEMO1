@@ -1,7 +1,7 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: prod/sonar:rep_demo1
+    LOGIN: prod/sonar:00ad98d1f314137069c034b2581021adbbe938d7
     HOST: prod/sonar:https://sonarcloud.io
     Organization: prod/sonar:srm-vigneshg
     Project: prod/sonar:rep_demo1
