@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: 22c8a048431bfb550d5c8e1ef615f055662f0d23
-    HOST: https://sonarcloud.io
-    Organization: srm-vigneshg
-    Project: rep_demo1
+    LOGIN: rep_demo:sonartoken
+    HOST: rep_demo:HOST
+    Organization: rep_demo:Organization
+    Project: rep_demo:Project
 phases:
   install:
     runtime-versions:
